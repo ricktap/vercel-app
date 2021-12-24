@@ -1,6 +1,7 @@
 <template>
 <div>
     <Blok :blok="story.content" />
+    {{ $config.cv }}
     </div>
 </template>
 
