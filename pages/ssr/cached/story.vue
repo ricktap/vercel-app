@@ -14,7 +14,7 @@ export default {
         }
     },
     async asyncData(ctx) {
-        const story = await useStoryblock(ctx);
+        const story = await useStoryblock(ctx, ctx.$config.cv);
 
         return {
             story
