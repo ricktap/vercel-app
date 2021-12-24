@@ -4,7 +4,7 @@
 
 <script>
 export default {
-    async asyncData() {
+    async asyncData({ $axios }) {
         const { data: { datetime: time } } = await $axios.get("http://worldtimeapi.org/api/timezone/Europe/Berlin")
 
         return {
