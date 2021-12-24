@@ -1,0 +1,21 @@
+<template>
+    <div class="container">
+        <Nuxt />
+    </div>
+</template>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+
+    align-items: center;
+    justify-content: center;
+}
+</style>
