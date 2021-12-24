@@ -20,6 +20,12 @@ export default {
   css: [
   ],
 
+  generate: {
+    exclude: [
+      /^\/ssr/ // path starts with /admin
+    ]
+  },
+
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
   ],
