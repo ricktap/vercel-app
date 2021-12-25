@@ -3,7 +3,7 @@
         <dl>
             <h4>Time API Examples</h4>
             
-            <dt><a href="/ssr/time">SSR ›</a> <span class="speed">🐌</span></dt>
+            <dt><a href="/ssr/time">SSR ›</a> <span class="speed">🚀</span></dt>
             <dd>
                 Fetches the current time from http://worldtimeapi.org and renders it's result on each request as a server side response.
             </dd>
@@ -30,7 +30,7 @@
 
             <h4>Storyblok Examples (WIP)</h4>
             
-            <dt><a href="/ssr/story">SSR ›</a> <span class="speed">🐌</span></dt>
+            <dt><a href="/ssr/story">SSR ›</a> <span class="speed">🚀</span></dt>
             <dd>
                 Fetches a story from storyblock and renders it on each request as a server side response.
             </dd>
