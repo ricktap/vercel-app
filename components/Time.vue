@@ -1,7 +1,7 @@
 <template>
     <div class="time">
         <p>
-            <strong>Time of last rendered resonse:</strong>
+            <strong>Time of last rendered response:</strong>
         </p>
         <p>
             {{ time }}
