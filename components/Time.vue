@@ -1,6 +1,12 @@
 <template>
     <div class="time">
-        {{ time }}
+        <p>
+            <strong>Time of last rendered resonse:</strong>
+        </p>
+        <p>
+            {{ time }}
+        </p>
+        <slot />
     </div>
 </template>
 

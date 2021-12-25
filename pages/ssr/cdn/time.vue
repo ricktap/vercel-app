@@ -1,5 +1,12 @@
 <template>
-    <Time :time="time" />
+    <Time :time="time">
+        <Description>
+            <ul>
+                <li>Each request is served from cache. each cache lives for <strong>3</strong> seconds.</li> 
+                <li>After that the next request will be served by a serverless function that renders the page, and stores the rendered results in it's cache.</li>
+            </ul>
+        </Description>
+    </Time>
 </template>
 
 <script>

@@ -1,5 +1,12 @@
 <template>
-    <Time :time="time" />
+    <Time :time="time">
+        <Description>
+            <ul>
+                <li>Each request is served by a serverless function.</li> 
+                <li>There is no caching involved.</li>
+            </ul>
+        </Description>
+    </Time>
 </template>
 
 <script>
