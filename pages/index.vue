@@ -5,6 +5,8 @@
             <dd>Fetches the current time from http://worldtimeapi.org and renders it's result on each request as a server side response.</dd>
             <dt><a href="/ssg/time">🚀 SSG Time ›</a></dt>
             <dd>Fetches the current time during build from http://worldtimeapi.org and renders it's results from a static html file.</dd>
+            <dt><a href="/ssr/cdn/time">🚀 SSR CDN Cached Time ›</a></dt>
+            <dd>Fetches the current time from http://worldtimeapi.org and renders it's result on each request as a server side response. The response is cached on the edge.</dd>
 
             <dt><a href="/ssr/story">🐌 SSR Story ›</a></dt>
             <dd>Fetches a story from storyblock and renders it on each request as a server side response.</dd>
